@@ -9,4 +9,8 @@
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.6.0.4" />
+    <PackageReference Include="Com.Mapbox.Maps.Android" Version="10.11.1" />
+  </ItemGroup>
 </Project>
