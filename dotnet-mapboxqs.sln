@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAndroid.MapboxQs", "DotnetAndroid.MapboxQs\DotnetAndroid.MapboxQs.csproj", "{328E7DD6-3268-44FC-A68B-CC65C3C8A789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B9D86E2-4FD4-4F74-B578-33751ECDFAB0}
+	EndGlobalSection
+EndGlobal
