@@ -12,5 +12,33 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.6.0.4" />
     <PackageReference Include="Com.Mapbox.Maps.Android" Version="10.11.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.8.21.1" />
+		<PackageReference Include="Square.OkHttp3" Version="4.10.0.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Condition=" EXISTS('Resources\values\resources_dev.xml') " Update="Resources\values\resources_dev.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <GradleRepository Include="https://api.mapbox.com/downloads/v2/releases/maven">
+      <Repository>
+        maven {
+          url 'https://api.mapbox.com/downloads/v2/releases/maven'
+          authentication {
+            basic(BasicAuthentication)
+          }
+          credentials {
+            // Do not change the username below.
+            // This should always be `mapbox` (not your username).
+            username = "mapbox"
+            // Use the secret token you stored in gradle.properties as the password
+            password = MAPBOX_DOWNLOADS_TOKEN
+          }
+        }
+      </Repository>
+    </GradleRepository>
   </ItemGroup>
 </Project>
