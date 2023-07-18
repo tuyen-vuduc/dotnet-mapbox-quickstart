@@ -405,3 +405,5 @@ ASALocalRun/
 .localhistory/
 
 *_dev.xml
+
+settings.json

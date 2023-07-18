@@ -18,8 +18,8 @@ You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-for-
 echo "MAPBOX_DOWNLOADS_TOKEN=YOUR_MAPBOX_DOWNLOADS_TOKEN" >> ~/gradle/gradle.properties
 ```
 
-- 5/ Grab `mapbox_access_token` from [your Mapbox account page](https://account.mapbox.com/)
-- 6/ Create file `resources_dev.xml` in folder `Resources/values` with the below content
+- 3/ Grab `mapbox_access_token` from [your Mapbox account page](https://account.mapbox.com/)
+- 4/ Create file `resources_dev.xml` in folder `Resources/values` with the below content
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -27,4 +27,4 @@ echo "MAPBOX_DOWNLOADS_TOKEN=YOUR_MAPBOX_DOWNLOADS_TOKEN" >> ~/gradle/gradle.pro
     <string name="mapbox_access_token">YOUR_MAPBOX_ACCESS_TOKEN</string>
 </resources>
 ```
-- 7/ Check out the result
+- 5/ Check out the result
