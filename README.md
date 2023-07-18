@@ -6,7 +6,7 @@ This repo provides a quick start guide and/or examples to guide developers on ho
 
 - [Mapbox for .NET Android Quickstart](./src/quickstart/DotnetAndroid.MapboxQs)
 - [Mapbox for .NET iOS Quickstart](./src/quickstart/DotnetIOS.MapboxQs)
-- Mapbox for .NET MAUI Quickstart
+- [Mapbox for .NET MAUI Quickstart](./src/quickstart/DotnetMaui.MapboxQs)
 
 # Examples
 

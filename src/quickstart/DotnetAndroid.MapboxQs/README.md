@@ -15,7 +15,7 @@ You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-for-
 - 2/ Put it into your local `~/.gradle/gradle.properties`
 
 ```bash
-echo "MAPBOX_DOWNLOADS_TOKEN=YOUR_MAPBOX_DOWNLOADS_TOKEN" >> ~/gradle/gradle.properties
+echo "MAPBOX_DOWNLOADS_TOKEN=YOUR_MAPBOX_DOWNLOADS_TOKEN" >> ~/.gradle/gradle.properties
 ```
 
 - 3/ Grab `mapbox_access_token` from [your Mapbox account page](https://account.mapbox.com/)

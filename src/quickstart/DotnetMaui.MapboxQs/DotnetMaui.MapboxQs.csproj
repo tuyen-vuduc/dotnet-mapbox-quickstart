@@ -43,9 +43,33 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
-
+	<PropertyGroup>
+		<MAPBOX_DOWNLOADS_TOKEN>sk.eyJ1IjoidHV5ZW52ZCIsImEiOiJjbGs3dGZ4bHUwOHk3M2Rxbmw5djc2NmNqIn0.PV0TgPnzJp3RngUeWOqOAw</MAPBOX_DOWNLOADS_TOKEN>
+	</PropertyGroup>
+	<ItemGroup>
+		<GradleRepository Include="https://api.mapbox.com/downloads/v2/releases/maven">
+		  <Repository>
+		  maven {
+			url 'https://api.mapbox.com/downloads/v2/releases/maven'
+			authentication {
+			  basic(BasicAuthentication)
+			}
+			credentials {
+			  // Do not change the username below.
+			  // This should always be `mapbox` (not your username).
+			  username = "mapbox"
+			  // Use the secret token you stored in gradle.properties as the password
+			  password = MAPBOX_DOWNLOADS_TOKEN
+			}
+		  }
+		  </Repository>
+		</GradleRepository>
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+		<PackageReference Include="Com.Mapbox.Maps.Android" Version="10.11.1" />
+	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Mapbox.Maui" Version="10.11.1" />
 	</ItemGroup>
-
 </Project>
