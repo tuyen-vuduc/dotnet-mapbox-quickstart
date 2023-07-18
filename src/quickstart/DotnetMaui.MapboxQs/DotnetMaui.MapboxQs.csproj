@@ -44,7 +44,7 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 	<PropertyGroup>
-		<MAPBOX_DOWNLOADS_TOKEN>sk.eyJ1IjoidHV5ZW52ZCIsImEiOiJjbGs3dGZ4bHUwOHk3M2Rxbmw5djc2NmNqIn0.PV0TgPnzJp3RngUeWOqOAw</MAPBOX_DOWNLOADS_TOKEN>
+		<MAPBOX_DOWNLOADS_TOKEN>YOUR_MAPBOX_DOWNLOADS_TOKEN</MAPBOX_DOWNLOADS_TOKEN>
 	</PropertyGroup>
 	<ItemGroup>
 		<GradleRepository Include="https://api.mapbox.com/downloads/v2/releases/maven">

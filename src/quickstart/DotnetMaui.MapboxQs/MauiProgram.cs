@@ -5,7 +5,7 @@ namespace DotnetMaui.MapboxQs;
 
 public static class MauiProgram
 {
-	const string ACCESS_TOKEN = "pk.eyJ1IjoidHV5ZW52ZCIsImEiOiJjbGcxaHRheTcxNTYxM2ltc3pzbWZqM3FxIn0.U7VIhTCPwewyPgL3vhKTwQ";
+	const string ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
 
 	public static MauiApp CreateMauiApp()
 	{
