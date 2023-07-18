@@ -2,7 +2,7 @@
 
 A very simple and short example of how to use Mapbox SDKs in a .NET MAUI app.
 
-You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-in-your-net-ios-app) for a step-by-step guide.
+You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-in-your-dotnet-maui-app) for a step-by-step guide.
 
 ## Prerequisites
 - Visual Studio for Mac or Visual Studio for Windows
