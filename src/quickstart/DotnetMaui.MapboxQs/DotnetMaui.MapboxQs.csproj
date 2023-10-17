@@ -12,7 +12,7 @@
 		<ApplicationTitle>DotnetMaui.MapboxQs</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.dotnetmaui.mapboxqs</ApplicationId>
+		<ApplicationId>com.vuductuyen.dotnetmaui.mapboxqs</ApplicationId>
 		<ApplicationIdGuid>46d1c3e6-8da9-4948-8882-deddc7f0dd38</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -64,12 +64,9 @@
 		  }
 		  </Repository>
 		</GradleRepository>
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
-		<PackageReference Include="Com.Mapbox.Maps.Android" Version="10.11.1" />
-	</ItemGroup>
+	</ItemGroup>	
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-		<PackageReference Include="Mapbox.Maui" Version="10.11.1" />
+		<PackageReference Include="Mapbox.Maui" Version="10.11.1.1" />
 	</ItemGroup>
 </Project>
