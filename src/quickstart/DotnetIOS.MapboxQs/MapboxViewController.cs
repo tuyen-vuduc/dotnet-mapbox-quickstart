@@ -3,9 +3,9 @@ using MapboxMapsObjC;
 
 namespace DotnetIOS.MapboxQs;
 
-public class MapboxViewController : UIViewController
+public partial class MapboxViewController : UIViewController
 {
-    const string MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
+    // const string MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
 
     public override void ViewDidLoad()
     {

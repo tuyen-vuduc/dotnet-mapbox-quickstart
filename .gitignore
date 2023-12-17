@@ -407,3 +407,5 @@ ASALocalRun/
 *_dev.xml
 
 settings.json
+
+*.dev.cs

@@ -3,9 +3,9 @@ using Microsoft.Extensions.Logging;
 
 namespace DotnetMaui.MapboxQs;
 
-public static class MauiProgram
+public static partial class MauiProgram
 {
-	const string ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
+	//const string ACCESS_TOKEN = "{YOUR_MAPBOX_ACCESS_TOKEN}";
 
 	public static MauiApp CreateMauiApp()
 	{

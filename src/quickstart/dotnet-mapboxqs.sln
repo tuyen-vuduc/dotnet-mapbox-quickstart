@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAndroid.MapboxQs", "DotnetAndroid.MapboxQs\DotnetAndroid.MapboxQs.csproj", "{328E7DD6-3268-44FC-A68B-CC65C3C8A789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetAndroid.MapboxQs", "DotnetAndroid.MapboxQs\DotnetAndroid.MapboxQs.csproj", "{328E7DD6-3268-44FC-A68B-CC65C3C8A789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetIOS.MapboxQs", "DotnetIOS.MapboxQs\DotnetIOS.MapboxQs.csproj", "{E82555DA-6A19-4C9E-BE33-8CC43E94A204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetIOS.MapboxQs", "DotnetIOS.MapboxQs\DotnetIOS.MapboxQs.csproj", "{E82555DA-6A19-4C9E-BE33-8CC43E94A204}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetMaui.MapboxQs", "DotnetMaui.MapboxQs\DotnetMaui.MapboxQs.csproj", "{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetMaui.MapboxQs", "DotnetMaui.MapboxQs\DotnetMaui.MapboxQs.csproj", "{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,17 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{328E7DD6-3268-44FC-A68B-CC65C3C8A789}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E82555DA-6A19-4C9E-BE33-8CC43E94A204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E82555DA-6A19-4C9E-BE33-8CC43E94A204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82555DA-6A19-4C9E-BE33-8CC43E94A204}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{E82555DA-6A19-4C9E-BE33-8CC43E94A204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82555DA-6A19-4C9E-BE33-8CC43E94A204}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F87D07D-9DB1-4BC1-91F5-CCC167B1D7DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

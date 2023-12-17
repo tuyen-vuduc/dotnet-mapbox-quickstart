@@ -6,6 +6,6 @@
     Title="Mapbox in .NET MAUI"
     x:Class="DotnetMaui.MapboxQs.MainPage">
 
-    <mb:MapboxView />
+    <mb:MapboxView x:Name="mapbox" />
 </ContentPage>
 
