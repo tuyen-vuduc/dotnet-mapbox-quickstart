@@ -2,11 +2,11 @@
 	<Import Condition="EXISTS('DotnetIOS.MapboxQs.props')" Project="DotnetIOS.MapboxQs.props" />
 	<Import Condition="EXISTS('DotnetIOS.MapboxQs.targets')" Project="DotnetIOS.MapboxQs.targets" />
   <PropertyGroup>
-    <TargetFramework>net7.0-ios</TargetFramework>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
-    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <CreatePackage>false</CreatePackage>

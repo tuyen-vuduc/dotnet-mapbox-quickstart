@@ -6,7 +6,7 @@ You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-for-
 
 ## Prerequisites
 - Visual Studio for Mac or Visual Studio for Windows
-- .NET 7.0.306
+- .NET 8.0.100
 - .NET Android workload
 
 ## Steps to run the example

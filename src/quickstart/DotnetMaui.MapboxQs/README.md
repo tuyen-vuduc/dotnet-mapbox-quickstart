@@ -6,7 +6,7 @@ You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-in-y
 
 ## Prerequisites
 - Visual Studio for Mac or Visual Studio for Windows
-- .NET 7.0.306
+- .NET 8.0.100
 - .NET workloads for iOS, Android, MAUI
 
 ## Steps to run the example

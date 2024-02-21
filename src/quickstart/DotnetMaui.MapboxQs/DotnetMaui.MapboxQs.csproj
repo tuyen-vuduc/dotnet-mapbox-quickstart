@@ -2,7 +2,7 @@
 	<Import Condition="EXISTS('DotnetMaui.MapboxQs.props')" Project="DotnetMaui.MapboxQs.props" />
 	<Import Condition="EXISTS('DotnetMaui.MapboxQs.targets')" Project="DotnetMaui.MapboxQs.targets" />
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net7.0-ios;</TargetFrameworks>
+		<TargetFrameworks>net8.0-android;net8.0-ios;</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<RootNamespace>DotnetMaui.MapboxQs</RootNamespace>
 		<UseMaui>true</UseMaui>
@@ -64,7 +64,7 @@
 		</GradleRepository>
 	</ItemGroup>	
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Mapbox.Maui" Version="10.11.1.1" />
 	</ItemGroup>
 </Project>
