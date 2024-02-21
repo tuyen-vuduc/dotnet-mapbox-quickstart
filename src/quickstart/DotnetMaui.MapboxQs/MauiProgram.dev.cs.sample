@@ -1,0 +1,6 @@
+namespace DotnetMaui.MapboxQs;
+
+partial class MauiProgram 
+{
+	internal const string ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
+}
