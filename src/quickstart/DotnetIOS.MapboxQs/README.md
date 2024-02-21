@@ -11,24 +11,17 @@ You can find [my blog post here](https://tuyen-vuduc.tech/how-to-use-mapbox-in-y
 
 ## Steps to run the example
 
+**MAPBOX_DOWNLOADS_TOKEN**
+
 - 1/ Generate/grab `MAPBOX_DOWNLOADS_TOKEN` from [your Mapbox account page](https://account.mapbox.com/)
-- 2/ Open `.csproj` file and replace `YOUR_MAPBOX_DOWNLOADS_TOKEN` with yours
+- 2/ Make a copy of `DotnetIOS.MapboxQs.props.sample`
+- 3/ Change the new filename to `DotnetIOS.MapboxQs.props`
+- 4/ Open `DotnetIOS.MapboxQs.props` and replace `YOUR_MAPBOX_DOWNLOADS_TOKEN` with your `MAPBOX_DOWNLOADS_TOKEN`
 
-```xml
-<PropertyGroup>
-  <MAPBOX_DOWNLOADS_TOKEN>YOUR_MAPBOX_DOWNLOADS_TOKEN</MAPBOX_DOWNLOADS_TOKEN>
-</PropertyGroup>
-```
+**MAPBOX_ACCESS_TOKEN**
+- 5/ Make a copy of `MapboxViewController.dev.cs.sample`
+- 6/ Change the new filename to `MapboxViewController.dev.cs`
+- 7/ Open `MapboxViewController.dev.cs` and replace `YOUR_MAPBOX_ACCESS_TOKEN` with yours
 
-- 3/ Grab `mapbox_access_token` from [your Mapbox account page](https://account.mapbox.com/)
-- 4/ Open `MapboxViewController.cs` and replace `YOUR_MAPBOX_ACCESS_TOKEN` with yours
-
-```cs
-public class MapboxViewController : UIViewController
-{
-    const string MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
-
-    // ...
-}
-```
-- 5/ Check out the result
+**HOORAH**
+- 8/ Check out the result
