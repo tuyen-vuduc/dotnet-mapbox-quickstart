@@ -12,11 +12,8 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.7.0.2" />
-    <PackageReference Include="Com.Mapbox.Maps.Android" Version="10.16.1" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.10.2" />
-		<PackageReference Include="Square.OkHttp3" Version="4.11.0.2" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.10.2" />
+		<PackageReference Include="Com.Mapbox.Maps.Android" Version="11.1.0" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.6.2.1" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Condition=" EXISTS('Resources\values\resources_dev.xml') " Update="Resources\values\resources_dev.xml">

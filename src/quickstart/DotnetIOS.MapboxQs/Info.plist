@@ -38,7 +38,5 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-	<key>MBXAccessToken</key>
-	<string>pk.eyJ1IjoidHV5ZW52ZCIsImEiOiJjbGcxaHRheTcxNTYxM2ltc3pzbWZqM3FxIn0.U7VIhTCPwewyPgL3vhKTwQ</string>
 </dict>
 </plist>
