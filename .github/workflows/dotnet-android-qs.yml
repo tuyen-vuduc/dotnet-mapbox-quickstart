@@ -1,4 +1,4 @@
-name: .NET Android
+name: Mapbox Android QuickStart
 
 on:
   workflow_dispatch:
