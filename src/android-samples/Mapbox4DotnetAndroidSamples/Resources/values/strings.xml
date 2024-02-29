@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Mapbox4DotnetAndroidSamples</string>
+    <string name="app_name">Mapbox Samples</string>
     <string name="app_text">Hello, Android!</string>
 </resources>
