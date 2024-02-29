@@ -50,6 +50,14 @@ jobs:
     - name: Install .NET Android workload
       run: dotnet workload install android
 
+    - name: Set MAPBOX_DOWNLOADS_TOKEN
+      run: |
+        echo "MAPBOX_DOWNLOADS_TOKEN=$MAPBOX_DOWNLOADS_TOKEN" >> ~/.gradle/gradle.properties
+        cat ~/.gradle/gradle.properties
+      shell: bash
+      env:
+        MAPBOX_DOWNLOADS_TOKEN : ${{secrets.MAPBOX_DOWNLOADS_TOKEN}}
+
     # Clean
     - name: Clean the application
       run: |
