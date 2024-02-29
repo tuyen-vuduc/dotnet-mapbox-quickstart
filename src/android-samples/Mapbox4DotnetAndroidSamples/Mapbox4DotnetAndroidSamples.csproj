@@ -1,4 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<Import Condition="EXISTS('Mapbox4DotnetAndroidSamples.targets')" Project="Mapbox4DotnetAndroidSamples.targets" />
   <PropertyGroup>
     <TargetFramework>net8.0-android</TargetFramework>
     <SupportedOSPlatformVersion>30</SupportedOSPlatformVersion>
@@ -9,4 +10,7 @@
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.1.0" />
+  </ItemGroup>
 </Project>
