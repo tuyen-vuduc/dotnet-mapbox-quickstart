@@ -26,7 +26,7 @@ jobs:
     runs-on: macos-latest  # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
     env:
-      Project_Folder: src\quickstart\DotnetAndroid.MapboxQs
+      Project_Folder: src/quickstart/DotnetAndroid.MapboxQs
     steps:
     - name: Checkout
       uses: actions/checkout@v3
