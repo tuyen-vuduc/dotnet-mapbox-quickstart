@@ -58,6 +58,12 @@ jobs:
       env:
         MAPBOX_DOWNLOADS_TOKEN : ${{secrets.MAPBOX_DOWNLOADS_TOKEN}}
 
+    - name: Create DotnetAndroid.MapboxQs.targets
+      run: |
+        cd $Project_Folder
+        echo "$PWD"
+        mv DotnetAndroid.MapboxQs.targets.sample DotnetAndroid.MapboxQs.targets
+
     # Clean
     - name: Clean the application
       run: |
