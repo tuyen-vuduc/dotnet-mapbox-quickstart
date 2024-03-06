@@ -409,3 +409,5 @@ ASALocalRun/
 settings.json
 
 *.dev.cs
+
+nugets/!.keepme
