@@ -92,7 +92,7 @@ partial class UserLocationActivity : IPermissionsListener
             ImageHolder.From(Resource.Drawable.ic_user_on_map),
             ImageHolder.From(Resource.Drawable.ic_user_bearing),
             ImageHolder.From(Resource.Drawable.ic_user_puck),
-            ExpressionDslExtensions
+            ExpressionDslKt
                 .Interpolate((builder) => builder
                     .Linear()
                     .Zoom()
@@ -107,35 +107,5 @@ partial class UserLocationActivity : IPermissionsListener
                 ).ToJson()
         );
         locationComponent.LocationPuck = locationPuck2D;
-    }
-}
-
-public static class ExpressionDslExtensions
-{
-    internal class ExpressionBuilderFunction<T>
-        : Java.Lang.Object, IFunction1
-        where T : Builder
-    {
-        Action<T> _action;
-        public ExpressionBuilderFunction(Action<T> action)
-        {
-            _action = action;
-        }
-
-        public Java.Lang.Object? Invoke(Java.Lang.Object? p0)
-        {
-            _action?.Invoke(p0 as T);
-            return p0;
-        }
-    }
-
-    public static Expression Interpolate(Action<InterpolatorBuilder> action)
-    {
-        return ExpressionDslKt.Interpolate(new ExpressionBuilderFunction<InterpolatorBuilder>(action));
-    }
-
-    public static ExpressionBuilder Stop(this ExpressionBuilder builder, Action<ExpressionBuilder> action)
-    {
-        return builder.Stop(new ExpressionBuilderFunction<ExpressionBuilder>(action));
     }
 }
