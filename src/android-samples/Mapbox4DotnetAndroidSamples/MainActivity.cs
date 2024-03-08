@@ -1,6 +1,6 @@
 namespace Mapbox4DotnetAndroidSamples
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true, Theme = "@style/AppTheme")]
+    [Activity(Label = "@string/app_name", MainLauncher = false, Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle? savedInstanceState)
