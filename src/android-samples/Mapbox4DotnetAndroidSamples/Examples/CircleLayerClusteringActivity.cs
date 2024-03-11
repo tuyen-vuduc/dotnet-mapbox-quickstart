@@ -15,7 +15,7 @@ using Mapbox4DotnetAndroidSamples.Utils;
 
 namespace Mapbox4DotnetAndroidSamples.Examples;
 
-[Activity(Label = "Circle Layer Clustering", MainLauncher = true, Theme = "@style/AppTheme")]
+[Activity(Label = "@string/activity_styles_dds_geojson_circle_layer_clusters_title", Description = "@string/description_styles_dds_geojson_circle_layer_clusters_description", Exported = true, Theme = "@style/AppTheme")]
 public class CircleLayerClusteringActivity : AppCompatActivity
 {
     private const string GEOJSON_SOURCE_ID = "earthquakes";
