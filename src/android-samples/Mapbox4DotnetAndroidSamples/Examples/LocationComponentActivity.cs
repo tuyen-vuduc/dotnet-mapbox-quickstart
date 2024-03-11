@@ -14,7 +14,7 @@ using Com.Mapbox.Maps.Plugins.Locationcomponent;
 using Mapbox4DotnetAndroidSamples.Utils;
 namespace Mapbox4DotnetAndroidSamples.Examples;
 
-[Activity(Label = "LocationComponentActivity", MainLauncher = true, Theme = "@style/AppTheme")]
+[Activity(Label = "LocationComponentActivity", Theme = "@style/AppTheme")]
 public partial class LocationComponentActivity : AppCompatActivity
 {
     private string lastStyleUri = Style.Dark;

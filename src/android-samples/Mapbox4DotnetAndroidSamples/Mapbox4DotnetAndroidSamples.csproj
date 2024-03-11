@@ -12,6 +12,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\sportcar.glb" />
+    <None Remove="Resources\drawable\ic_cross.xml" />
     <None Remove="Resources\layout\activity_location_component.xml" />
     <None Remove="Resources\layout\activity_location_component_animation.xml" />
     <None Remove="Resources\menu\menu_location_component.xml" />
