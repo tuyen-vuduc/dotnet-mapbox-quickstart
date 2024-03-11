@@ -2,7 +2,6 @@ using Android.Content.PM;
 using Android.Graphics;
 using Android.Runtime;
 using Android.Views;
-using Com.Mapbox.Functions;
 using Com.Mapbox.Maps;
 using Com.Mapbox.Maps.Extension.Style.Expressions.Dsl.Generated;
 using Com.Mapbox.Maps.Extension.Style.Layers.Properties.Generated;
@@ -14,7 +13,7 @@ using Com.Mapbox.Maps.Plugins.Locationcomponent;
 using Mapbox4DotnetAndroidSamples.Utils;
 namespace Mapbox4DotnetAndroidSamples.Examples;
 
-[Activity(Label = "LocationComponentActivity", Theme = "@style/AppTheme")]
+[Activity(Label = "@string/activity_location_component", Description = "@string/description_location_component", Exported = true, Theme = "@style/AppTheme")]
 public partial class LocationComponentActivity : AppCompatActivity
 {
     private string lastStyleUri = Style.Dark;

@@ -17,6 +17,9 @@
     <None Remove="Resources\layout\activity_location_component_animation.xml" />
     <None Remove="Resources\menu\menu_location_component.xml" />
     <None Remove="Resources\values\colors.xml" />
+    <None Remove="Resources\values\example_categories.xml" />
+    <None Remove="Resources\values\example_descriptions.xml" />
+    <None Remove="Resources\values\example_titles.xml" />
     <None Remove="Resources\values\resources_dev.xml" />
     <None Remove="Resources\values\styles.xml" />
   </ItemGroup>
