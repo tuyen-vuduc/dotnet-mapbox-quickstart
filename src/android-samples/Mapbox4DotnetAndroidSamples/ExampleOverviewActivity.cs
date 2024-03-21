@@ -16,6 +16,8 @@ namespace Mapbox4DotnetAndroidSamples
 
         private ExampleSectionAdapter _adapter;
         private RecyclerView _recyclerView;
+        private EditText exampleSearchEdittext;
+
         private IJob _job = JobKt.Job(null);
 
         public ICoroutineContext CoroutineContext => _job.Plus(Dispatchers.IO);
@@ -55,6 +57,19 @@ namespace Mapbox4DotnetAndroidSamples
                         );
                     }
                 });
+
+            exampleSearchEdittext = FindViewById<EditText>(Resource.Id.example_search_edittext);
+            exampleSearchEdittext.TextChanged += (sender, e) =>
+            {
+                var keyword = string.Join(string.Empty, exampleSearchEdittext.Text);
+
+                if (keyword.Length < 2) return;
+
+                var examples = _allExamples
+                    .Where(x => x.Label.Contains(keyword, StringComparison.InvariantCultureIgnoreCase)
+                        && x.Description.Contains(keyword, StringComparison.InvariantCultureIgnoreCase));
+                DisplayExamples(examples.ToList());
+            };
 
             if (savedInstanceState == null || !savedInstanceState.ContainsKey(KEY_STATE_EXAMPLES))
             {
