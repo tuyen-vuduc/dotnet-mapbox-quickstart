@@ -13,7 +13,12 @@ using Com.Mapbox.Maps.Plugins.Locationcomponent;
 using Mapbox4DotnetAndroidSamples.Utils;
 namespace Mapbox4DotnetAndroidSamples.Examples;
 
-[Activity(Label = "@string/activity_location_component", Description = "@string/description_location_component", Exported = true, Theme = "@style/AppTheme")]
+[Activity(
+    Label = "@string/activity_location_component",
+    Description = "@string/description_location_component",
+    Exported = true,
+    Theme = "@style/AppTheme")]
+[MetaData("@string/category", Value = "@string/category_location")]
 public partial class LocationComponentActivity : AppCompatActivity
 {
     private string lastStyleUri = Style.Dark;

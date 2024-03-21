@@ -8,7 +8,12 @@ using Com.Mapbox.Maps.Extension.Style.Projection.Generated;
 
 namespace Mapbox4DotnetAndroidSamples.Examples.Globe;
 
-[Activity(Label = "@string/activity_globe", Description = "@string/description_3d_globe", MainLauncher = true, Exported = true, Theme = "@style/AppTheme")]
+[Activity(
+    Label = "@string/activity_globe", 
+    Description = "@string/description_3d_globe",
+    Exported = true, 
+    Theme = "@style/AppTheme")]
+[MetaData("@string/category", Value = "@string/category_globe")]
 public class GlobeActivity : AppCompatActivity
 {
     private const double ZOOM = 0.45;

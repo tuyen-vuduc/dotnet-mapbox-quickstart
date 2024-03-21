@@ -4,7 +4,12 @@ using Android.Runtime;
 
 namespace Mapbox4DotnetAndroidSamples;
 
-[Application]
+[Application(
+    Theme = "@style/AppTheme",
+    UsesCleartextTraffic = true,
+    AllowBackup = true,
+    Label = "@string/app_name",
+    SupportsRtl = true)]
 public class MapboxApplication : Application
 {
     protected MapboxApplication(
