@@ -11,25 +11,6 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Assets\sportcar.glb" />
-    <None Remove="Resources\drawable-hdpi\ic_clear.png" />
-    <None Remove="Resources\drawable-xhdpi\ic_clear.png" />
-    <None Remove="Resources\drawable\ic_cross.xml" />
-    <None Remove="Resources\drawable\line_divider.xml" />
-    <None Remove="Resources\layout\activity_example_overview.xml" />
-    <None Remove="Resources\layout\activity_location_component.xml" />
-    <None Remove="Resources\layout\activity_location_component_animation.xml" />
-    <None Remove="Resources\layout\item_single_example.xml" />
-    <None Remove="Resources\layout\section_main_layout.xml" />
-    <None Remove="Resources\menu\menu_location_component.xml" />
-    <None Remove="Resources\values\colors.xml" />
-    <None Remove="Resources\values\example_categories.xml" />
-    <None Remove="Resources\values\example_descriptions.xml" />
-    <None Remove="Resources\values\example_titles.xml" />
-    <None Remove="Resources\values\resources_dev.xml" />
-    <None Remove="Resources\values\styles.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.1.0.1" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.7" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.3" />
