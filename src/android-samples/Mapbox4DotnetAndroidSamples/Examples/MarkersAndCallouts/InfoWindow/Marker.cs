@@ -19,7 +19,7 @@ public record class Marker
     public string? Title { get; }
     public string? Snippet { get; }
 
-    public Marker(Point position, Bitmap icon, string? title, string? snippet)
+    public Marker(Point position, Bitmap icon, string? title, string? snippet = default)
     {
         if (title == null && snippet == null)
         {

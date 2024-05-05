@@ -5,16 +5,13 @@ using Com.Mapbox.Maps.Plugins.Annotations;
 using Com.Mapbox.Maps.Plugins.Annotations.Generated;
 using Com.Mapbox.Maps.Plugins.Gestures;
 using Com.Mapbox.Maps.Viewannotation;
-using static Android.Icu.Text.ListFormatter;
-using static Google.Android.Material.Tabs.TabLayout;
-using static Java.Util.Jar.Pack200;
-using System;
-using Mapbox4DotnetAndroidSamples.Examples.MarkersAndCallouts.InfoWindow;
 using Com.Mapbox.Functions;
+using Android.Runtime;
+using Java.Interop;
 
 namespace Mapbox4DotnetAndroidSamples.Examples.MarkersAndCallouts.InfoWindow;
 
-internal partial class MarkerManager : Java.Lang.Object
+public partial class MarkerManager : Java.Lang.Object, IOnPointAnnotationClickListener, IOnMapClickListener
 {
     private readonly MapView mapView;
 
@@ -62,10 +59,7 @@ internal partial class MarkerManager : Java.Lang.Object
          */
         GesturesUtils.AddOnMapClickListener(mapView.MapboxMap, this);
     }
-}
 
-partial class MarkerManager : IOnPointAnnotationClickListener, IOnMapClickListener
-{
     public bool OnAnnotationClick(Java.Lang.Object annotation)
     {
         foreach (var xmarker in markerList)

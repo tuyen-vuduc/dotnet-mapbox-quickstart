@@ -11,7 +11,11 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.1.0.1" />
+    <None Remove="Resources\drawable\ic_blue_marker.xml" />
+    <None Remove="Resources\drawable\ic_legacy_callout.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.7" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.3" />
   </ItemGroup>
