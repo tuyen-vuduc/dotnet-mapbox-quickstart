@@ -15,8 +15,8 @@
     <None Remove="Resources\drawable\ic_legacy_callout.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1" />
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.7" />
-    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.3" />
+    <PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1.1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.8" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.4" />
   </ItemGroup>
 </Project>

@@ -1,13 +1,11 @@
 ﻿using Android.Views;
+using Com.Mapbox.Functions;
 using Com.Mapbox.Geojson;
 using Com.Mapbox.Maps;
 using Com.Mapbox.Maps.Plugins.Annotations;
 using Com.Mapbox.Maps.Plugins.Annotations.Generated;
 using Com.Mapbox.Maps.Plugins.Gestures;
 using Com.Mapbox.Maps.Viewannotation;
-using Com.Mapbox.Functions;
-using Android.Runtime;
-using Java.Interop;
 
 namespace Mapbox4DotnetAndroidSamples.Examples.MarkersAndCallouts.InfoWindow;
 
@@ -60,7 +58,7 @@ public partial class MarkerManager : Java.Lang.Object, IOnPointAnnotationClickLi
         GesturesUtils.AddOnMapClickListener(mapView.MapboxMap, this);
     }
 
-    public bool OnAnnotationClick(Java.Lang.Object annotation)
+    public bool OnAnnotationClick(PointAnnotation annotation)
     {
         foreach (var xmarker in markerList)
         {
