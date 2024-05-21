@@ -12,8 +12,8 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="Com.Mapbox.Maps.Android" Version="11.1.0" />
-		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.6.2.1" />
+		<PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1.1" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.6.2.3" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Condition=" EXISTS('Resources\values\resources_dev.xml') " Update="Resources\values\resources_dev.xml">

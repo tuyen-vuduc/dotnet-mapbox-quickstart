@@ -12,16 +12,21 @@
     <SupportedOSPlatformVersion>15.4</SupportedOSPlatformVersion>
     <ProvisioningType>manual</ProvisioningType>
     <CodesignKey>iPhone Developer</CodesignKey>
+    <NoWarn>CA1822, CA1010</NoWarn>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>False</CodeAnalysisTreatWarningsAsErrors>
+    <StyleCopTreatErrorsAsWarnings>False</StyleCopTreatErrorsAsWarnings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <CreatePackage>false</CreatePackage>
     <CodesignProvision>Automatic</CodesignProvision>
+    <MtouchLink>None</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <CreatePackage>false</CreatePackage>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.3.0" />
-		<PackageReference Include="MapboxMaps.iOS" Version="11.3.0" />
+		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.3.0.1" />
+		<PackageReference Include="MapboxMaps.iOS" Version="11.3.0.1" />
   </ItemGroup>
 </Project>
