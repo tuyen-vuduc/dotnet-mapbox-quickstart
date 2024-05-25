@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<Import Condition="EXISTS('DotnetAndroid.MapboxQs.props')" Project="DotnetAndroid.MapboxQs.props" />
 	<Import Condition="EXISTS('DotnetAndroid.MapboxQs.targets')" Project="DotnetAndroid.MapboxQs.targets" />
   <PropertyGroup>
@@ -12,7 +12,8 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1.1" />
+		<PackageReference Include="Com.Mapbox.Maps.Android" Version="11.3.1.7" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.8" />
 		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.6.2.3" />
   </ItemGroup>
   <ItemGroup>
