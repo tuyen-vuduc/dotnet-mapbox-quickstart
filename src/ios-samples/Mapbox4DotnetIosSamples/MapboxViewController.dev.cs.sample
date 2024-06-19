@@ -1,0 +1,7 @@
+﻿namespace Mapbox4DotnetIosSamples;
+
+partial class MapboxViewController
+{
+    internal const string MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
+}
+

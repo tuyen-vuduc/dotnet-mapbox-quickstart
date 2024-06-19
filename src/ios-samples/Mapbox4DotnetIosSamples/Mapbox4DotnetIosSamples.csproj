@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Condition="EXISTS('Mapbox4DotnetIosSamples.props')" Project="Mapbox4DotnetIosSamples.props" />
+	<Import Condition="EXISTS('Mapbox4DotnetIosSamples.targets')" Project="Mapbox4DotnetIosSamples.targets" />
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <ItemGroup>
+		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.3.0.3" />
+		<PackageReference Include="MapboxMaps.iOS" Version="11.3.0.2" />
+  </ItemGroup>
+</Project>
