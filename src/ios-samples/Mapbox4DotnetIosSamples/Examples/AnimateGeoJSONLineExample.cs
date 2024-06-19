@@ -1,21 +1,20 @@
-﻿using MapboxCoreMaps;
+﻿using CoreLocation;
 using MapboxMapsObjC;
 
 namespace Mapbox4DotnetIosSamples;
 
-public partial class MapboxViewController : UIViewController
+public class AnimateGeoJSONLineExample : UIViewController
 {
-    // const string MAPBOX_ACCESS_TOKEN = "YOUR_MAPBOX_ACCESS_TOKEN";
-
     public override void ViewDidLoad()
     {
         base.ViewDidLoad();
 
-        // Use all default options, except access_token
-        var mapboxOptions = new MBMMapOptions(null, null, null, null, null, null, 1, null);
+        CLLocationCoordinate2D centerLocation = new (45.5076, -122.6736);
+
+        TMBCameraOptions cameraOptions = new (centerLocation, new(0, 0, 0, 0), new(0, 0), 11, 0 ,0);
 
         var options = MapInitOptionsFactory.CreateWithMapOptions(
-            mapboxOptions, null, null, null, 0
+            null, cameraOptions, null, null, 0
             );
 
         var mapView = MapViewFactory.CreateWithFrame(View.Bounds, options);

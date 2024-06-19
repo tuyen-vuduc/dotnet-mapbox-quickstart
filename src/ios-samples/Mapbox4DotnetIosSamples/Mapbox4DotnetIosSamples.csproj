@@ -18,4 +18,10 @@
 		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.3.0.3" />
 		<PackageReference Include="MapboxMaps.iOS" Version="11.3.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Examples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Examples\" />
+  </ItemGroup>
 </Project>
