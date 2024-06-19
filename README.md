@@ -17,7 +17,7 @@ This repo provides a quick start guide and/or examples to guide developers on ho
 | 1 | [AddMarkersSymbolExample](./mapboxqs/AddMarkersSymbolExample.m) |   |
 | 2 | [AddOneMarkerSymbolExample](./mapboxqs/AddOneMarkerSymbolExample.m) |   |
 | 3 | [AdvancedViewportGesturesExample](./mapboxqs/AdvancedViewportGesturesExample.m) |  |
-| 4 | [AnimateGeoJSONLineExample](./mapboxqs/AnimateGeoJSONLineExample.m) |  |
+| 4 | [AnimateGeoJSONLineExample](./mapboxqs/AnimateGeoJSONLineExample.m) | x |
 | 5 | [AnimateImageLayerExample](./mapboxqs/AnimateImageLayerExample.m) |  |
 | 6 | [AnimateLayerExample](./mapboxqs/AnimateLayerExample.m) |  |
 | 7 | [AnimatedMarkerExample](./mapboxqs/AnimatedMarkerExample.m) |   |
