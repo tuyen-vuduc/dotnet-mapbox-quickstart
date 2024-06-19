@@ -1,7 +1,4 @@
-﻿using MapboxCoreMaps;
-using MapboxMapsObjC;
-
-namespace Mapbox4DotnetIosSamples;
+﻿namespace Mapbox4DotnetIosSamples;
 
 public partial class MapboxViewController : UIViewController
 {
