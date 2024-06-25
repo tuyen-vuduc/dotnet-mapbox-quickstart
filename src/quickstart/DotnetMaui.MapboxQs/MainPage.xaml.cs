@@ -1,4 +1,5 @@
-﻿using MapboxMaui;
+﻿using GeoJSON.Text.Geometry;
+using MapboxMaui;
 using Microsoft.Maui.ApplicationModel;
 using static Microsoft.Maui.ApplicationModel.Permissions;
 
@@ -15,7 +16,7 @@ public partial class MainPage : ContentPage
 
     private void Map_MapReady(object sender, EventArgs e)
     {
-        var mapCenter = new Point(21.0278, 105.8342);
+        var mapCenter = new Position(21.0278, 105.8342);
         var cameraOptions = new CameraOptions
         {
             Center = mapCenter,
