@@ -26,7 +26,7 @@
     <CreatePackage>false</CreatePackage>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.3.0.2" />
-		<PackageReference Include="MapboxMaps.iOS" Version="11.3.0.2" />
+		<PackageReference Include="MapboxMapsObjC.iOS" Version="11.4.0" />
+		<PackageReference Include="MapboxMaps.iOS" Version="11.4.0" />
   </ItemGroup>
 </Project>
