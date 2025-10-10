@@ -229,8 +229,19 @@ public partial class LocationComponentActivity : AppCompatActivity
                             lp3d.ModelReceiveShadows,
                             lp3d.ModelScaleMode,
                             lp3d.ModelEmissiveStrength,
-                            lp3d.ModelEmissiveStrengthExpression
-                            ),
+                            lp3d.ModelEmissiveStrengthExpression,
+                            lp3d.ModelOpacityExpression, // <-- Added missing required argument
+                            lp3d.ModelRotationExpression,
+                            lp3d.ModelColor,
+                            lp3d.ModelColorExpression,
+                            lp3d.ModelColorMixIntensity,
+                            lp3d.ModelColorMixIntensityExpression,
+                            lp3d.MaterialOverrides,
+                            lp3d.NodeOverrides,
+                            lp3d.ModelElevationReference,
+                            lp3d.ModelColorUseTheme,
+                            lp3d.ModelColorUseThemeExpression
+                        ),
                         LocationPuck2D lp2d => lp2d.Copy(
                             lp2d.TopImage,
                             lp2d.BearingImage,
